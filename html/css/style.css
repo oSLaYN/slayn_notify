@@ -1,0 +1,107 @@
+body {
+    background-color: transparent !important;
+}
+
+.template, .notification {
+    display: none;
+}
+
+.notif-container {
+    width: 20%;
+    position: fixed;
+    right: 15%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.notification {
+    padding: 10px;
+    max-width: fit-content;
+    border-radius: 5px;
+    margin: 5px;
+    font: caption;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.success {
+    border: 1.2px solid rgba(31, 31, 31, 0.7);
+    background: rgba(73, 163, 73, 0.6);
+    background-image: url(https://i.imgur.com/66q0IUD.png);
+    background-repeat: no-repeat;
+	background-position-x: 3%;
+	background-position-y: 50%;
+    background-size: 25px;
+    text-align: right;
+    text-indent: 25px;
+    color: #fff;
+}
+
+.inform {
+    border: 1.2px solid rgba(31, 31, 31, 0.7);
+    background-color: rgba(47, 92, 115, 0.6);
+    background-image: url(https://i.imgur.com/yVqZHkp.png);
+    background-repeat: no-repeat;
+	background-position-x: 3%;
+	background-position-y: 50%;
+    background-size: 30px;
+    text-align: right;
+    text-indent: 27.5px;
+    color: #fff;
+}
+
+.error {
+    border: 1.2px solid rgba(31, 31, 31, 0.7);
+    background-color: rgba(128, 10, 10, 0.6);
+    background-image: url(https://i.imgur.com/HZHxe2L.png);
+    background-repeat: no-repeat;
+	background-position-x: 3%;
+	background-position-y: 50%;
+    background-size: 25px;
+    text-align: right;
+    text-indent: 27.5px;
+    color: #fff;
+}
+
+.payment {
+    border: 1.2px solid rgba(31, 31, 31, 0.7);
+    background-image: url(https://i.imgur.com/woseeYV.png);
+    background-color: rgba(26, 120, 45, 0.6);
+    background-repeat: no-repeat;
+	background-position-x: 3%;
+	background-position-y: 50%;
+    background-size: 30px;
+    text-align: right;
+    text-indent: 25px;
+    color: #fff;
+}
+
+.warning {
+    border: 1.2px solid rgba(31, 31, 31, 0.7);
+    background-image: url(https://i.imgur.com/2zKsAsc.png);
+    background-color: rgba(194, 151, 33, 0.6);
+    background-repeat: no-repeat;
+	background-position-x: 3%;
+	background-position-y: 50%;
+    background-size: 30px;
+    text-align: right;
+    text-indent: 26px;
+    color: #fff;
+}
+
+.billing {
+    border: 1.2px solid rgba(31, 31, 31, 0.7);
+    background-image: url(https://i.imgur.com/ApQ1Rgo.png);
+    background-color: rgba(123, 48, 166, 0.6);
+    background-repeat: no-repeat;
+	background-position-x: 3%;
+	background-position-y: 50%;
+    background-size: 30px;
+    text-align: right;
+    text-indent: 25px;
+    color: #fff;
+}
