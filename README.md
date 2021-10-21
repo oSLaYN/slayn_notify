@@ -9,8 +9,8 @@
 > ###### exports['slayn_notify']:DoShortHudText(type, text)
 > ###### exports['slayn_notify']:DoLongHudText(type, text)
 > ###### exports['slayn_notify']:PersistentHudText(action, id, type, text, style)
-######*Action Only Have 2 Options:* **START** *or* **END**
-######*ID it's eveything you want to specify the event*
+###### *Action Only Have 2 Options:* **START** *or* **END**
+###### *ID it's eveything you want to specify the event*
 
 **Server-Side**
 > TriggerClientEvent('slayn_notify:client:SendAlert', source, {type = type, text = text})
