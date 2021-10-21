@@ -1,7 +1,7 @@
 **IT WORKS WITH EVERY FRAMEWORK**
 # Tiny Description
-######That script, like her name says, it's a notify system for your server. Not so simple only with text, it cames with an icon included for every notify type.
-######It's all free to use. I need to say thank you for [mythic_notify](https://github.com/JayMontana36/mythic_notify) developer, because i use that script to make my own one.
+###### That script, like her name says, it's a notify system for your server. Not so simple only with text, it cames with an icon included for every notify type.
+###### It's all free to use. I need to say thank you for [mythic_notify](https://github.com/JayMontana36/mythic_notify) developer, because i use that script to make my own one.
 
 # Commands/Exports
 **Client-Side**
