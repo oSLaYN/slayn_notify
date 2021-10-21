@@ -5,10 +5,10 @@
 
 # Commands/Exports
 **Client-Side**
-> exports['slayn_notify']:DoHudText(type, text)
-> exports['slayn_notify']:DoShortHudText(type, text)
-> exports['slayn_notify']:DoLongHudText(type, text)
-> exports['slayn_notify']:PersistentHudText(action, id, type, text, style)
+> ###### exports['slayn_notify']:DoHudText(type, text)
+> ###### exports['slayn_notify']:DoShortHudText(type, text)
+> ###### exports['slayn_notify']:DoLongHudText(type, text)
+> ###### exports['slayn_notify']:PersistentHudText(action, id, type, text, style)
 ######*Action Only Have 2 Options:* **START** *or* **END**
 ######*ID it's eveything you want to specify the event*
 
